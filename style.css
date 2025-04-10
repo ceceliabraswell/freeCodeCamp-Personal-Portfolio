@@ -9,19 +9,16 @@
 body {
     background-color: rgb(2, 2, 150);
     color: white;
-}
-
-nav ul {
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: right;
-    font-size: 2rem;
-    cursor: pointer;
+    flex-direction: column;
+    gap: 72px;
+    padding: 14px;
 }
 
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
 }
